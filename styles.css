@@ -1,0 +1,250 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter';
+    
+
+}
+
+.split{
+    height:50%;
+    width:100%;
+    position: fixed;
+    z-index: -1;
+    left:0;
+    overflow: hidden;
+}
+
+.top{
+    background-color:  #6B46C1;
+    top:0;
+    color:#fff;
+    text-align: center;
+    
+}
+
+.text{
+    position: relative;
+    top:50px;
+    color: #F7FAFC;
+}
+.text h1{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    
+   
+}
+.text h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    opacity: 0.84;
+}
+
+.bottom{
+    background-color:  #f6f2ff;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.wee{
+    max-width: 60%;
+    display: flex;
+}
+.bot{
+    margin: 20px;
+    position: relative;
+    top: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #171923;
+    display: flex;
+    
+
+}
+.bot img{
+    height: 48px;
+    width: 48px;
+    margin-right: 10px;
+}
+.bot h3{
+    margin:0 10px;
+}
+
+.center{
+    width:60%;
+    background-color:#f6f2ff;
+    height:40%;
+    border-radius: 10px;
+    box-shadow: 5px 3px 18px #888888;
+    display: flex;
+}
+.left{
+    background-color: #642cd31c;
+    width:40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #171923;
+}
+.left h2{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 10px 0;
+    
+}
+.left h1{
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+    margin:10px 0 ;
+    }
+.left h4{
+    margin: 5px 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 10px 0;
+}
+.left button{
+    width: 60%;
+    height: 38px;
+    background-color:  #805AD5;
+    border-radius: 8px;
+    color: #fff;
+    border-color:#805AD5;
+    margin-top: 10px;
+}
+.right{
+    padding: 32px;
+}
+.right h4{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.right ul{
+    list-style: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.right ul img{
+    height: 18px;
+    width: 18px;
+}
+
+@media only screen and (max-width: 600px ){
+    .center{
+        width:95%;
+        height:60%;
+        position: relative;
+        bottom: 0;
+        flex-direction: column;
+    }
+    .left{
+        height: 40%;
+        width: 100%;
+    }
+    .top{
+        height: 30%;
+        text-align: left;
+        padding: 5%;
+    }
+    .text{
+       top: 0;
+        width:95%;
+    }
+    .text h1{
+        font-size: 36px;
+    }
+    .text h3{
+        font-size:18px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+        height:70%;
+    }
+    .wee{
+        flex-direction: column;
+        text-align: left;
+        padding:2.5%;
+    }
+        
+    .bot{
+        top:300px;
+        margin: 10px;
+        font-size: 14px;
+    }
+    .bot img{
+        height: 40px;
+        width: 40px;
+    }
+
+    .right ul li{
+        padding: 10px 0;
+    }
+    
+}
+@media only screen and (min-width: 600px  ) and (max-width: 768px){
+    .center{
+        width:90%;
+        height:60%;
+        position: relative;
+        top: 50px;
+        flex-direction: column;
+        
+    
+    }
+    .left{
+       height: 40%;
+       width: 100%;
+    }
+    .top{
+        height: 40%;
+        text-align: left;
+        padding: 5%;
+    }
+    .text{
+        top: 0;
+        width:90%;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 70%;
+    }
+    .wee{
+        flex-direction: column;
+        text-align: left;
+        padding:2.5%;
+    }
+        
+    .bot{
+        top:340px;
+        margin: 10px;
+        font-size: 14px;
+    }
+    .bot img{
+        height: 40px;
+        width: 40px;
+    }
+
+   .right ul li{
+    padding: 10px 0;
+   }
+    
+}
