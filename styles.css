@@ -116,13 +116,32 @@ body{
 
 }
 
+
+
+@media only screen and (max-width: 926px){
+    /*for tablet device */
+    .top h1 {
+        font-size: 2.5rem;
+      }
+      .top  p {
+        font-size: 1.5rem;
+      }
+      .center {
+        width: 40rem;
+      }
+      .bottom {
+        width: 40rem;
+      }
+    
+}
+
 @media only screen and (max-width: 646px ){
 
     
     /* for mobile device*/ 
     .top{
         padding-bottom: 10rem;
-        width: 646px;
+    
     }
     .top h1{
         font-size: 2rem;
@@ -136,7 +155,7 @@ body{
     }
   
     .center{
-        width:90%;
+        width:80%;
         margin: 0 auto;
         flex-direction: column;
         margin-block: -10rem;
@@ -162,22 +181,5 @@ body{
     .bot{
         gap: 20px;
     }
-    
-}
-
-@media only screen and (max-width: 926px){
-    /*for tablet device */
-    .top h1 {
-        font-size: 2.5rem;
-      }
-      .top  p {
-        font-size: 1.5rem;
-      }
-      .center {
-        width: 40rem;
-      }
-      .bottom {
-        width: 40rem;
-      }
     
 }
