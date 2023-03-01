@@ -28,78 +28,6 @@ body{
     padding-block-end: 3.5rem;
   }
 
-/*.split{
-    height: 50%;
-    width:100%;
-    position: fixed;
-    z-index: -1;
-    left:0;
-    overflow: hidden;
-}*/
-
-/*.top{
-    
-    background-color:  #6B46C1;
-    top:0;
-    color:#fff;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-}
-
-.top h1{
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 800;
-    letter-spacing: -0.01em;
-    
-   
-}
-.top h3{
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    opacity: 0.84;
-} */
-
-/*.bottom{
-    background-color:  #f6f2ff;
-    bottom: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-.wee{
-    max-width: 60%;
-    display: flex;
-}
-.bot{
-    margin: 20px;
-    position: relative;
-    top: 40px;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    color: #171923;
-    display: flex;
-    
-
-}
-.bot img{
-    height: 48px;
-    width: 48px;
-    margin-right: 10px;
-}
-.bot h3{
-    margin:0 10px;
-}*/
-
 .bottom {
     display: flex;
     gap: 1.5rem;
@@ -188,109 +116,68 @@ body{
 
 }
 
-@media only screen and (max-width: 600px ){
-    /* for mobile device
-    --width: 428px
-    --height : 1191px-- */ 
+@media only screen and (max-width: 646px ){
+
+    
+    /* for mobile device*/ 
+    .top{
+        padding-bottom: 10rem;
+        width: 646px;
+    }
+    .top h1{
+        font-size: 2rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .top p{
+        font-size: 1rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+  
     .center{
-        width:95%;
-        height:60%;
-        position: relative;
-        bottom: 0;
+        width:90%;
+        margin: 0 auto;
         flex-direction: column;
+        margin-block: -10rem;
+        
     }
     .left{
-        height: 40%;
-        width: 100%;
+        flex-direction: column;
+        gap: 0.2rem;
+        width: auto;
     }
-    .top{
-        height: 30%;
-        text-align: left;
-        padding: 5%;
-    }
-    .text{
-       top: 0;
-        width:95%;
-    }
-    .text h1{
-        font-size: 36px;
-    }
-    .text h3{
-        font-size:18px;
-    }
+  
     .bottom{
         flex-direction: column;
-        align-items: flex-start;
-        height:70%;
+        justify-content: normal;
+        align-items: normal;
+        padding-block-start: 13rem;
+        padding-block-end: 3rem;
+        width: 90%;
+        margin: 0 auto;
     }
-    .wee{
-        flex-direction: column;
-        text-align: left;
-        padding:2.5%;
-    }
+  
         
     .bot{
-        top:300px;
-        margin: 10px;
-        font-size: 14px;
-    }
-    .bot img{
-        height: 40px;
-        width: 40px;
-    }
-
-    .right ul li{
-        padding: 10px 0;
+        gap: 20px;
     }
     
 }
-@media only screen and (min-width: 600px  ) and (max-width: 768px){
-    /*for tablet device */
-    .center{
-        width:90%;
-        height:60%;
-        position: relative;
-        top: 50px;
-        flex-direction: column;
-        
-    
-    }
-    .left{
-       height: 40%;
-       width: 100%;
-    }
-    .top{
-        height: 40%;
-        text-align: left;
-        padding: 5%;
-    }
-    .text{
-        top: 0;
-        width:90%;
-    }
-    .bottom{
-        flex-direction: column;
-        align-items: flex-start;
-        height: 70%;
-    }
-    .wee{
-        flex-direction: column;
-        text-align: left;
-        padding:2.5%;
-    }
-        
-    .bot{
-        top:340px;
-        margin: 10px;
-        font-size: 14px;
-    }
-    .bot img{
-        height: 40px;
-        width: 40px;
-    }
 
-   .right ul li{
-    padding: 10px 0;
-   }
+@media only screen and (max-width: 926px){
+    /*for tablet device */
+    .top h1 {
+        font-size: 2.5rem;
+      }
+      .top  p {
+        font-size: 1.5rem;
+      }
+      .center {
+        width: 40rem;
+      }
+      .bottom {
+        width: 40rem;
+      }
     
 }
