@@ -155,7 +155,7 @@ body{
     }
   
     .center{
-        width:80%;
+        width:90%;
         margin: 0 auto;
         flex-direction: column;
         margin-block: -10rem;
